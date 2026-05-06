@@ -1,0 +1,3 @@
+Página web para un negocio de Billouterie y accesorios. Se organiza con una estructura HTML semántica y el objetivo es agregarle CSS y Javascript.
+
+En la parte de contactos, se hace uso de Formspree. Esta página web permite que los mensajes enviados mediante el formulario terminen en un servidor donde yo puedo leer quién me lo envió, junto con el mensaje y el mail. Es útil porque si alguien quiere contactarme por un producto, puede hacerlo y yo como dueña de la tienda tengo la posibilidad de empezar una comunicación vía mail ya que tengo sus datos para contactarme.

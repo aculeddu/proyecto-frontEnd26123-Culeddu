@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+footer, header{
+    background-color: rgba(226, 169, 241);
+    font-style: oblique;
+    color: white
+}
+
+footer{
+    font-size: 1rem;
+    text-align: center;
+}
+
+footer a{
+    color:white;
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+} 
+
+a{
+    color:rgba(226, 169, 241);    
+    text-decoration: none;
+}   
+
+h1{
+    font-size: 6rem;
+    font-family: "The Nautigal", cursive;
+    display: inline;
+}
+
+label{
+    font-size: 1rem;
+    color: rgba(226, 169, 241);
+}
+
+input, textarea{
+    border-color: rgba(226, 169, 241);
+    border-style: dotted;
+}
+
+.icono {
+    height: 10%;
+    width: 10%;
+}
+
+.bienvenido{
+    height: 80%;
+    width: 80%;
+}
+
+.producto{
+    width: 99%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.letras{
+    font-family: "Viaoda Libre", serif;
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+article{
+    border-style: outset;
+    border-color: rgba(226, 169, 241);
+    color: rgba(226, 169, 241);
+    width: 250px; 
+    text-align: center;
+    padding: 0.5%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    display:flex;
+    gap: 20px;        
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border-style: double;
+    border-color: rgba(226, 169, 241);
+    color: rgba(226, 169, 241);  
+    background-color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
