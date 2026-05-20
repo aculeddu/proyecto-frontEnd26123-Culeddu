@@ -2,14 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 
 footer, header{
-    background-color: rgba(226, 169, 241);
+    background-color: rgba(193, 13, 238);
     font-style: oblique;
-    color: white
+    color: white;
+}
+
+nav{
+    background-color: white;
+    border-style: dotted;
+    border-color: white
 }
 
 footer{
     font-size: 1rem;
     text-align: center;
+    padding: 1em 0;
+    margin-top: auto;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 footer a{
@@ -22,7 +37,7 @@ ul{
 } 
 
 a{
-    color:rgba(226, 169, 241);    
+    color:rgb(173, 71, 199);    
     text-decoration: none;
 }   
 
@@ -34,11 +49,11 @@ h1{
 
 label{
     font-size: 1rem;
-    color: rgba(226, 169, 241);
+    color: rgba(203, 66, 237);
 }
 
 input, textarea{
-    border-color: rgba(226, 169, 241);
+    border-color: rgba(203, 66, 237);
     border-style: dotted;
 }
 
@@ -59,8 +74,7 @@ input, textarea{
 }
 
 .letras{
-    font-family: "Viaoda Libre", serif;
-    
+    font-family: "Viaoda Libre", serif; 
 }
 
 img{
@@ -70,8 +84,8 @@ img{
 
 article{
     border-style: outset;
-    border-color: rgba(226, 169, 241);
-    color: rgba(226, 169, 241);
+    border-color: rgba(203, 66, 237);
+    color: rgba(193, 13, 238);
     width: 250px; 
     text-align: center;
     padding: 0.5%;
@@ -87,17 +101,19 @@ section{
     gap: 20px;        
     flex-wrap: wrap; 
     justify-content: center;
+    padding-bottom: 1rem;
 }
 
 main{
     display: flex;
     justify-content: center;
+    padding-bottom: 1rem;
 }
 
 button{
     border-style: double;
-    border-color: rgba(226, 169, 241);
-    color: rgba(226, 169, 241);  
+    border-color: rgb(193, 13, 238);
+    color: rgba(193, 13, 238);  
     background-color: white;
     cursor: pointer;
 }
