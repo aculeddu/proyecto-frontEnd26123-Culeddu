@@ -23,5 +23,3 @@ const arosRojos = {
 }
 
 const catalogo = [pulseraPerlas, collarGamuza, anilloColorido, arosRojos]
-
-console.log(catalogo[1].nombre)

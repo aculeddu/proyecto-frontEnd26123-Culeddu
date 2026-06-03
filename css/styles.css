@@ -7,10 +7,21 @@ footer, header{
     color: white;
 }
 
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header .carrito{
+    margin:auto;
+}
+
 nav{
     background-color: white;
     border-style: dotted;
-    border-color: white
+    border-color: white;
+    width: 100%;
 }
 
 footer{
@@ -116,6 +127,10 @@ button{
     color: rgba(193, 13, 238);  
     background-color: white;
     cursor: pointer;
+}
+
+header i{
+    margin-left: auto;
 }
 
 @media (max-width: 768px){
