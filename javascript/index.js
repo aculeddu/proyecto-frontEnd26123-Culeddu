@@ -1,3 +1,4 @@
+//PRODUCTOS
 const pulseraPerlas = {
     nombre: "Pulsera de perlas",
     precio: 10000,

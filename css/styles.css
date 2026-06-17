@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 
+*::selection{
+    color: white;
+    background-color: rgba(193, 13, 238);
+}
+
 footer, header{
     background-color: rgba(193, 13, 238);
     font-style: oblique;
