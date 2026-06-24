@@ -112,7 +112,7 @@ ul{
     justify-content: space-around;
 }
 
-section{
+#contenedorTarjetas{
     display:flex;
     gap: 20px;        
     flex-wrap: wrap; 
