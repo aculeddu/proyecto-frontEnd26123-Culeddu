@@ -1,14 +1,31 @@
-let carrito = document.querySelector(".carrito");
-let listaProductos = [];
+import{
+    guardarCarrito,
+    obtenerCarrito,
+    vaciarCarritoStorage,
+} from "./storage.js"
 
-function comprar(producto){
+let carrito = document.querySelector(".carrito");
+
+const carritoStorage = obtenerCarrito();
+carrito.textContent = carritoStorage.length;
+
+export const comprar = (producto) => {
+    const carritoStorage = obtenerCarrito();
     console.log(producto);
-    carrito.textContent = parseInt(carrito.textContent) + 1;
-    listaProductos.push(producto);
+    
+    carritoStorage.push(producto);
+    guardarCarrito(carritoStorage);
+    carrito.textContent = carritoStorage.length;
+}
+
+export const quitar = (indice) => {
+    const carritoStorage = obtenerCarrito();
 }
 
 function verLista(){
-    for (let i = 0; i < listaProductos.length; i++){
-        console.log(listaProductos[i]);
-    }
+    const carritoStorage = obtenerCarrito();
+
+    carritoStorage.forEach((producto) => {
+        console.log(producto);
+    });
 }

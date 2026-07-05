@@ -1,3 +1,6 @@
+import { comprar } from "./carrito.js";
+
+
 //PRODUCTOS
 const pulseraPerlas = {
     nombre: "Pulsera de perlas",
@@ -29,6 +32,7 @@ const arosRojos = {
 
 const catalogo = [pulseraPerlas, collarGamuza, anilloColorido, arosRojos]
 
+//FUNCIONES
 const renderizarProductos = () => {
     const contenedor = document.getElementById("contenedorTarjetas");
     catalogo.forEach((producto) => {

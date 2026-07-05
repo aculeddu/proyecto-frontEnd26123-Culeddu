@@ -57,6 +57,10 @@ a{
     text-decoration: none;
 }   
 
+#carrito a{
+    color:white;
+}
+
 h1{
     font-size: 6rem;
     font-family: "The Nautigal", cursive;
