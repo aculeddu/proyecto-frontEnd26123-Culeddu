@@ -1,0 +1,30 @@
+[
+    {
+        "id" : 1,
+        "nombre" : "Pulsera de perlas",
+        "precio" : 10000,
+        "stock" : 1,
+        "imagen" : "https://www.decuencasaperlas.com/cdn/shop/products/pu14.jpg?v=1670332952"
+    },
+    {
+        "id" : 2,
+        "nombre" : "Collar de Gamuza",
+        "precio" : 30000,
+        "stock" : 4,
+        "imagen" : "https://acdn-us.mitiendanube.com/stores/357/850/products/foto-producto-ec-bbafc2550747b1b81217656527267657-480-0.webp"
+    },
+    {
+        "id" : 3,
+        "nombre" : "Anillos coloridos",
+        "precio" : 3000,
+        "stock" : 13,
+        "imagen" : "https://i.pinimg.com/1200x/3b/9b/b1/3b9bb107e0a05a80ba2a01fbb16bf65e.jpg"
+    },
+    {
+        "id" : 4,
+        "nombre" : "Aros rojos",
+        "precio" : 7000,
+        "stock" : 2,
+        "imagen" : "https://i.pinimg.com/736x/d3/68/2c/d3682ceab3bde59f790e13d0c26d71e5.jpg"
+    }
+]
