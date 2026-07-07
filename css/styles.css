@@ -116,7 +116,7 @@ ul{
     justify-content: space-around;
 }
 
-#contenedorTarjetas{
+#contenedorTarjetas, #contenedorCompra{
     display:flex;
     gap: 20px;        
     flex-wrap: wrap; 
@@ -138,14 +138,14 @@ button{
     cursor: pointer;
 }
 
-header i{
-    margin-left: auto;
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    margin: 20px auto;
 }
 
-@media (max-width: 768px){
-    form{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+header i{
+    margin-left: auto;
 }
